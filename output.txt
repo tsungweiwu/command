@@ -1,0 +1,15 @@
+Enter document name: English Report
+Documented named english report is created
+Enter Command: Load
+document english report is loaded into view
+Enter Command: Spell
+document english report is being checked for spelling errors
+Enter Command: Save
+document english report is being saved...
+Enter Command: Print
+document english report is printing...
+Enter Command: magic
+Sorry, we don't recognize that command
+Enter Command: quit
+Goodbye
+
