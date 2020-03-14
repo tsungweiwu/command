@@ -2,6 +2,10 @@ package command;
 
 import java.util.HashMap;
 
+/**
+ * @author juan-mariscal
+ *
+ */
 public class InputHandler {
 	private HashMap<String, Command> commands;
 	private LoadCommand loadCommand;
