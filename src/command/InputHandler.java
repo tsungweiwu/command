@@ -3,8 +3,7 @@ package command;
 import java.util.HashMap;
 
 /**
- * @author juan-mariscal
- *
+ * This class handles the different commands/instructions to be carried out
  */
 public class InputHandler {
 	private HashMap<String, Command> commands;
@@ -13,6 +12,10 @@ public class InputHandler {
 	private SaveCommand saveCommand;
 	private PrintCommand printCommand;
 	
+	/**
+	 * This method passes the document name into the separate commands to be instantiated in a hash map
+	 * @param document
+	 */
 	public InputHandler(Document document) {
 		commands = new HashMap<>();
 		loadCommand = new LoadCommand(document);
@@ -26,6 +29,10 @@ public class InputHandler {
 		commands.put("print", printCommand);
 	}
 	
+	/**
+	 * This method checks for the command being called to see if it matches any from the hash map and executes the command accordingly, else give an error
+	 * @param data
+	 */
 	public void inputEntered(String data) {
 		if (commands.containsKey(data)) {
 			Command command = commands.get(data);

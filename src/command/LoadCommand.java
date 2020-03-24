@@ -1,12 +1,15 @@
 package command;
 
 /**
- * @author juan-mariscal
- *
+ * This is the load class that calls the instructions to load the document
  */
 public class LoadCommand implements Command {
 	private Document doc;
 
+	/**
+	 * Constructor initializing the class
+	 * @param doc
+	 */
 	public LoadCommand(Document doc) {
 		this.doc = doc;
 	}

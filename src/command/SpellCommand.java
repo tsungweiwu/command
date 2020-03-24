@@ -1,12 +1,15 @@
 package command;
 
 /**
- * @author juan-mariscal
- *
+ * This is the spell class that calls the instructions to check for spelling errors in the document
  */
 public class SpellCommand implements Command {
 	private Document doc;
 	
+	/**
+	 * Constructor initializing the class
+	 * @param doc
+	 */
 	public SpellCommand(Document doc) {
 		this.doc = doc;
 	}

@@ -1,10 +1,7 @@
-/**
- * 
- */
 package command;
 
 /**
- * This class is to define the document that the user inputs in order to be processed
+ * This class is to define the document that the user inputs in order to be processed and defines each command and its functions
  */
 public class Document {
 	private String name;
